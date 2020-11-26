@@ -22,7 +22,7 @@ function setup() {
 	ground = Bodies.rectangle(width/2, 580, width, 20 , {isStatic:true} );
  	World.add(myworld, ground);
 	
-	packageBody = Bodies.rectangle(width/2 , 200 , 5 , 5, {restitution:1, isStatic:true});
+	packageBody = Bodies.rectangle(width/2 , 200 , 40 , 40, {restitution:1, isStatic:true});
 	World.add(myworld, packageBody);
 	
 }
